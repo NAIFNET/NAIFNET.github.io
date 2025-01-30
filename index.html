@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE International Conference on Network Softwarization NetSoft 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: url('img/budapest.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background: rgba(119, 158, 203, 0.8);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+	a:link {
+	    color: lightgrey;
+	    background-color: transparent;
+	    text-decoration: none;
+	}
+	a:visited {
+	    color: lightgrey;
+	    background-color: transparent;
+	    text-decoration: none;
+	}
+
+        .left-content {
+            width: 45%;
+        }
+        .right-content {
+	    float:right;	    
+            width: 45%;
+        }	
+        .timeline {
+            position: relative;
+            width: 45%;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: rgba(255, 255, 255, 0.5);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1px;
+        }
+        .timeline-item {
+            padding: 10px 20px;
+            position: relative;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 6px;
+            margin: 10px 0;
+            width: 90%;
+        }
+        .timeline-item.left {
+            left: 52%;
+        }
+        .timeline-item.right {
+            right: 53%;
+        }
+        .timeline-item.right::before {
+            left: calc(100% + 8px);
+        }
+        .timeline-item.left::before {
+            left: -8px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);	    
+        }
+        .timeline-item h3 {
+            margin-top: 0;
+            color: DodgerBlue;
+        }
+        .timeline-item p {
+            color: #333;
+        }
+        .timeline-item span.date {
+            font-weight: bold;
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media screen and (max-width: 768px) {
+            section {
+                flex-direction: column;
+            }
+            .left-content, .timeline {
+                width: 100%;
+            }
+            .timeline::after {
+                left: 10px;
+            }
+            .timeline-item {
+                width: 100%;
+                padding-left: 50px;
+            }
+            .timeline-item.left::before, .timeline-item.right::before {
+                left: 10px;
+            }
+        }
+
+    .logo-container {
+        display: flex;
+        justify-content: center; /* Center logos horizontally */
+        align-items: center;    /* Align logos vertically */
+        gap: 20px;              /* Add space between logos */
+        margin: 20px 0;         /* Optional: Add spacing around the container */
+	}
+
+    .logo {
+        width: auto;            /* Maintain aspect ratio */
+        height: 120px;           /* Set a uniform height for scaling */
+        max-width: 250px;       /* Optional: Limit max width */
+        transition: transform 0.3s ease; /* Smooth scaling animation on hover */
+    }
+
+    .logo:hover {
+        transform: scale(1.1);  /* Slightly enlarge logos on hover */
+    }	
+
+    .logo-container a img {
+        display: block; /* Ensure logos are treated as block elements */
+    }	
+	
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IEEE International Conference on Network Softwarization NetSoft 2025</h1>
+        <h2><strong>23 - 27 June 2025 // Budapest, Hungary </strong></h2>
+	<h2>Call for Papers for the First Workshop on Native AI in Future Networks including 6G (NAIFN)</h2>
+    </header>
+    <h1>
+    </h1>
+    <section>
+        <h2>SCOPE AND MOTIVATION</h2>
+        <p>New architecture enablers and vision are needed for future networks, including 6G, which is flexible, efficient, and able to cope with dynamically changed demands and environments. In recent years, we have witnessed a growing interest in leveraging artificial intelligence (AI) tools to innovate network design and operations at all layers, domains, and planes. Such integration of AI with networking functions, called the “native AI” approach, is seen as a key technology for future networks. Using new concepts and technologies like cloud-native and cloud continuum extends the applicability of AI supporting the AI as a Service approach that needs management and orchestration of AI components. The NAIFN workshop will focus on native AI architectures, i.e., network system architectures that assume deep integration of network and AI functions by design; however, other native AI-related topics are also in scope. It aims to bring together researchers from academia and industry committed to making AI in networks a reality and interested in the evolution of network architectures and infrastructures for native AI support.</p>
+	<div class="right-content">
+        <div class="timeline">
+            <div class="timeline-item left">
+                <h3>Paper Submission</h3>
+                <span class="date">March 14, 2025</span>
+                <p>Workshop paper submission deadline.</p>
+            </div>
+            <div class="timeline-item right">
+                <h3>Acceptance</h3>
+                <span class="date">April 11, 2025</span>
+                <p>Workshop paper notification of acceptance.</p>
+            </div>
+            <div class="timeline-item left">
+                <h3>Camera-ready submission</h3>
+                <span class="date">May 2, 2025</span>
+            </div>
+            <div class="timeline-item right">
+                <h3>Workshop date</h3>
+                <span class="date">Monday, June 23 or Friday, June 27, 2025</span>
+            </div>
+        </div>
+        </div>
+        <div class="left-content">	
+        <h2>TOPICS OF INTEREST</h2>
+	<p>Within its scope, the workshop solicits research and industry papers identifying research and engineering challenges on the following topics but not limited to:</p>
+	<ul>
+	  <li>Native AI architectures</li>
+	  <li>Native AI supporting data ingestion, storage and processing</li>
+	  <li>Native AI models lifecycle management (LCM), mechanisms to deploy and manage AI models</li>
+	  <li>Distributed AI models supporting native AI</li>
+	  <li>Native AI and XAI integration</li>
+	  <li>Security of native AI networks</li>
+	  <li>Native AI-based RAN and Core networks</li>
+	  <li>Native AI in a multistakeholder environment</li>
+	  <li>Native AI support for Intent-based Networking</li>
+	  <li>Native AI techniques for network security</li>
+	  <li>Native AI supporting energy-efficient networking</li>
+	  <li>Native AI based Zero-touch networks</li>
+	  <li>Native AI-supporting software technologies</li>
+	  <li>Impact of regulatory guidelines and rules on native AI</li>
+	  <li>Future advances in AI/ML frameworks to support 5G/6G</li>
+	  <li>Inter-model communication for native AI models</li>
+	  <li>AI/ML architectures for lower power and complexity devices such as the Internet of Things</li>
+	  <li>Distributed AI/ML algorithms for future communication networks</li>
+	  <li>Native AI end-to-end</li>
+	  <li>Methods to secure the AI/ML models in a distributed environment</li>
+	  <li>AI/ML-driven protocol design and security issues for future networks</li>
+	  <li>Preserving privacy in AI-native networks</li>
+	  <li>Governance and trustworthiness in AI-native networks</li>
+	  <li>Networking solutions that are native AI-ready</li>
+	  <li>Measurement and benchmarking of native-AI</li>
+	  <li>Data collection and exposure for native AI</li>
+	  <li>AI/ML-enabled novel applications in future communication networks</li>
+	  <li>Experimental deployments of AI in networks</li>
+	  
+        </ul>
+	</div>
+	
+	<h2>Symposium Co-Chairs</h2>
+	<ul>
+	  <li>Slawomir Kuklinski, Warsaw University of Technology, Poland</li>
+	  <li>Antonio Skarmeta, Universidad de Murcia, Spain</li>
+	  <li>Diego R. Lopez, Telefónica, Spain</li>
+	  <li>Marius Corici, Fraunhofer FOKUS, Germany</li>
+	  <li>Daniel Kilper, Trinity College Dublin, Ireland</li>
+        </ul>
+	<p>The Workshop supported by EU SNS projects RIGOUROUS, 6G-Cloud, NANCY, 6G-XCEL, 5G Stardust, ECO-eNET, and others like ONOFRE4 and Open6GHub.</p>
+	<div class="logo-container">
+	  <a href="https://rigourous.eu/" target="_blank"><img alt="RIGOUROUS Logo" src="img/rigorous.png" class="logo"></a>
+	<a href="https://www.6g-cloud.eu/" target="_blank"><img alt="6G-Cloud Logo" src="img/6g-cloud.png" class="logo"></a>		  
+	<a href="https://nancy-project.eu/" target="_blank"><img alt="NANCY Logo" src="img/nancy.png" class="logo"></a>	
+	<a href="https://www.6g-xcel.eu/" target="_blank"><img alt="6G-XCEL Logo" src="img/6g-xcel.svg" class="logo"></a>
+	<a href="https://5g-stardust.eu/" target="_blank"><img alt="5G Startdust Logo" src="img/5G-STARDUST.png" class="logo"></a>
+	<a href="https://www.eco-enet.eu/" target="_blank"><img alt="ECO-eNET Logo" src="img/eco-net.png" class="logo"></a>
+	<a href="https://onofre3.girtel.es/" target="_blank"><img alt="ONOFRE-3 Logo" src="img/onofore-4.png" class="logo"></a>
+	<a href="https://www.open6ghub.de/en/" target="_blank"><img alt="Open6GHub Logo" src="img/open-6g-hub.svg" class="logo"></a>
+	</div>
+
+	<h2>Paper Submission</h2>
+	<p>Prospective authors are invited to submit high-quality original technical papers for presentation at the Workshop and publication in the NetSoft 2025 Proceedings. All submissions must be written in English and must use the standard IEEE two-column conference template that can be downloaded from: </p>
+	<p><a href="https://www.ieee.org/conferences/publishing/templates.html">https://www.ieee.org/conferences/publishing/templates.html</a></p>
+	<p>The submitted papers should not exceed 6 pages, including references and all other material.</p>
+	<h2>Deadlines</h2>
+	
+	<p>Workshop paper submission deadline:  <strong>March 14, 2025</strong></p>
+	<p>Workshop paper notification of acceptance: <strong>April 11, 2025</strong></p>
+	<p>Camera-ready submission:  <strong>May 2, 2025</strong></p>
+	<p>Workshop date: <strong>Monday, June 23 or Friday, June 27, 2025</strong></p>
+	<p>All papers should be submitted via EDAS: <a href="https://edas.info/newPaper.php?c=33483">https://edas.info/newPaper.php?c=33483</a> </p>
+	<p>Full instructions on how to submit papers are provided on the IEEE NetSoft 2025 website. <a href="https://netsoft2025.ieee-netsoft.org/authors/">https://netsoft2025.ieee-netsoft.org/authors/</a></p>
+
+	<p>See you soon!</p>
+    </section>
+    <footer>
+        <p><small>&copy; Copyright 2025 IEEE – All rights reserved. Use of this website signifies your agreement to the IEEE Terms & Conditions. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.</small></p>
+    </footer>
+</body>
+</html>
